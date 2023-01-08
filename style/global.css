@@ -12,7 +12,7 @@
 }
 body {
   font-family:CircularStdBook !important;
-  background: #151628 !important;
+  background: #111 !important;
   color: #fff !important;
 }
 .navbar{
@@ -27,6 +27,9 @@ body {
 .h-100{
   min-height: 100vh;
 }
+.h-50{
+  min-height: 50vh;
+}
 .bg-shk{
   background: #343542 !important;
   border-radius: 0px !important;
@@ -34,6 +37,18 @@ body {
   padding-left: 10px !important ;padding-right: 10px !important;
 }
 .bg-shk:hover{
+  color: #00e571 !important;
+}
+.border-opacity-3{
+  border: 1px solid #00e572;
+}
+
+.badge-Experience{
+  background: #00e571;
+  color: #fff;
+  padding: 20px;
+}
+.text-shk{
   color: #00e571 !important;
 }
 .btn-shk{
@@ -54,7 +69,24 @@ body {
   border: none !important;
   box-shadow: none !important;
 }
-}
 .btn-shk:hover{
   background: #008f48 !important;
+}
+footer{
+  border-top: rgba(255, 255, 255, 0.103) solid 1px; 
+  padding-top: 80px;
+  padding-bottom: 80px;
+  text-align: center;
+}.icon-link{
+  margin: 12px;
+  text-decoration: none;
+  color: #fff;
+  font-size: 23px;
+  transition:0.3s;
+}.icon-link:hover{
+  margin: 12px;
+  text-decoration: none;
+  color: #00e571;
+  font-size: 23px;
+  transition:0.3s;
 }
