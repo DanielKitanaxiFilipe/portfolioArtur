@@ -12,12 +12,23 @@
 <link rel="stylesheet" href="./style/bootstrap.css">
 <script src="./js/bootstrap.js"></script>
 <body>
-  <!--nav class="navbar navbar-light">
+  <nav class="navbar navbar-expand-lg navbar-dark">
     <div class="container">
       <a class="navbar-brand" href="#">Artur Francisco</a>
-    </div-->
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse justify-content-end" id="navbarNavAltMarkup">
+        <div class="navbar-nav">
+          <a class="nav-link" href="#inicio">Inicio</a>
+          <a class="nav-link" href="#carreira">Carreira</a>
+          <a class="nav-link" href="#projecto">Projecto</a>
+          <a class="nav-link" href="#contacto" >Contacto</a>
+        </div>
+      </div>
+    </div>
   </nav>
- <section class="h-100 d-flex align-items-center">
+ <section class="pt-5 pb-5 d-flex align-items-center" id="inicio">
   <div class="container">
     <div class="row">
       <div class="col-lg-6 d-flex align-items-center pt-5 pb-5">
@@ -37,8 +48,8 @@
             <span class="badge bg-shk">MySql</span>
             <span class="badge bg-shk">C#</span>
           </div>
-          <button type="button" class="btn btn-shk">Drop a line</button>
-          <button type="button" class="btn btn-none-shk ms-3">View my GitHub</button>
+          <a  href="mailto: seu email"><button type="button" class="btn btn-shk"><i class="fa fa-send (alias) me-2"></i> Drop a line</button></a>
+          <a href=""><button type="button" class="btn btn-none-shk ms-3"><i class="fa fa-github me-2"></i> View my GitHub</button></a>
         </div>
       </div>
       <div class="col-lg-6">
@@ -64,15 +75,11 @@
           <h1  style="font-weight: bold;">700+</h1>
           Contributions This Year
          </div>
-         <div class="badge-Experience ms-4">
-          <h1  style="font-weight: bold;">100%</h1>
-          Of Satisfaction
-         </div>
       </div>
     </div>
   </div>
  </section>
- <section class="h-50 d-flex align-items-center pt-5 pb-5">
+ <section class="h-50 d-flex align-items-center pt-5 pb-5" id="carreira">
   <div class="container">
     <div class="row">
       <div class="col-lg-6 ">
@@ -134,25 +141,25 @@
         </div>
   </div>
  </section>
- <section class="h-100 d-flex align-items-center pt-5 pb-5">
+ <section class="h-100 d-flex align-items-center pt-5 pb-5" id="projecto">
   <div class="container">
     <h1>Projectos</h1>
         <div class="row mt-5">
-          <div class="col-lg-4 col-6 mb-4">
+          <div class="col-lg-4 mb-4">
           <img src="./assets/2.jpg" class="img-fluid mb-3" alt="">
             <div class="d-flex justify-content-between">
               <div><b>Nome do projeto</b></div>
               <div><a href="" style="color:#00e571 !important;">Ver projecto</a></div>
             </div>
           </div>
-          <div class="col-lg-4 col-6 mb-4">
+          <div class="col-lg-4 mb-4">
             <img src="./assets/2.jpg" class="img-fluid mb-3" alt="">
               <div class="d-flex justify-content-between">
                 <div><b>Nome do projeto</b></div>
                 <div><a href="" style="color:#00e571 !important;">Ver projecto</a></div>
               </div>
             </div>
-            <div class="col-lg-4 col-6 mb-4">
+            <div class="col-lg-4 mb-4">
               <img src="./assets/2.jpg" class="img-fluid mb-3" alt="">
                 <div class="d-flex justify-content-between">
                   <div><b>Nome do projeto</b></div>
@@ -162,7 +169,7 @@
        </div>
   </div>
  </section>
- <footer>
+ <footer id="contacto">
   <div class="mb-4">
     <a target="_blank" href="#" class="icon-link"><i class="fa fa-github"></i></a>
     <a target="_blank" href="#" class="icon-link"><i class="fa fa-linkedin"></i></a>
