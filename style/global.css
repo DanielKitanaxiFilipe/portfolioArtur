@@ -14,6 +14,7 @@ body {
   font-family:CircularStdBook !important;
   background: #111 !important;
   color: #fff !important;
+  overflow-x: hidden;
 }
 .navbar{
  min-height: 100px !important;
@@ -24,6 +25,7 @@ body {
   color: #fff !important;
   font-size: 40px !important;
 }
+
 .h-100{
   min-height: 100vh;
 }
